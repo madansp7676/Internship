@@ -1,0 +1,22 @@
+class program2
+{
+	static void help()
+	{
+		System.out.println("executing help().....");
+	}
+	static void start()
+	{
+		System.out.println("executing start().....");
+	}
+	static void run()
+	{
+		System.out.println("executing run().....");
+	}
+	public static void main(String[] args)
+	{
+		help();
+		run();
+		start();
+	}
+}
+}
